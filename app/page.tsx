@@ -83,7 +83,7 @@ export default function Home() {
                   {profile.name}
                 </span>
                 <span className="pill-badge">
-                  ⚡ Full Stack & AI Developer
+                  ⚡ Oracle APEX Developer
                 </span>
                 <span className="pill-badge dark">
                   🏢 Oracle APEX @ Path Infotech
@@ -101,6 +101,9 @@ export default function Home() {
                 <a href="#projects" className="btn-primary">
                   Explore Projects ↓
                 </a>
+                <a href="/Shubham Updated Resume.pdf" download="Shubham_Anand_Resume.pdf" className="btn-ghost" title="Download Resume PDF">
+                  📄 Download Resume
+                </a>
                 <a href="#contact" className="btn-ghost">
                   Get In Touch →
                 </a>
@@ -108,22 +111,7 @@ export default function Home() {
                   📋 Copy Email
                 </button>
               </div>
-
-              <div className="hero-hint">
-                <div className="pulse-dot" />
-                <span>Move your cursor to navigate through the interactive 3D moving starfield.</span>
-              </div>
             </div>
-          </div>
-
-          {/* Stats Strip */}
-          <div className="stats-strip">
-            {profile.stats.map((s, idx) => (
-              <div key={idx} className="stat-item">
-                <span className="stat-val">{s.value}</span>
-                <span className="stat-label">{s.label}</span>
-              </div>
-            ))}
           </div>
         </section>
 
@@ -312,6 +300,14 @@ export default function Home() {
             <div className="contact-actions">
               <a href={`mailto:${profile.email}`} className="btn-primary" style={{ padding: "1.1rem 2.6rem", fontSize: "1.05rem" }}>
                 Send Direct Email →
+              </a>
+              <a
+                href="/Shubham Updated Resume.pdf"
+                download="Shubham_Anand_Resume.pdf"
+                className="btn-ghost"
+                style={{ padding: "1.1rem 2rem", fontSize: "1.05rem" }}
+              >
+                📄 Download Resume PDF
               </a>
               <button onClick={handleCopyEmail} className="btn-ghost" style={{ padding: "1.1rem 2rem", fontSize: "1.05rem" }}>
                 📋 Copy {profile.email}

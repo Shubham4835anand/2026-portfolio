@@ -33,28 +33,28 @@ export const profile = {
   name: "Shubham Anand",
   handle: "SHUBHAM.DEV",
   heroYear: "2026",
-  headline: "FULL STACK & AI SYSTEMS ARCHITECT",
-  tagline: "Engineering intelligent enterprise web applications with RAG, Vector Search, and High-Performance Cloud Solutions.",
+  headline: "ORACLE APEX DEVELOPER",
+  tagline: "Engineering intelligent enterprise applications with Oracle APEX, RAG, and Modern Full Stack Architecture.",
   intro:
-    "I am an Oracle APEX & Full Stack Developer at Path Infotech, specialized in building next-generation AI-powered enterprise applications. From RAG pipelines with Azure OpenAI to resilient reactive web interfaces on Next.js and high-throughput MongoDB architectures, I transform complex data into effortless user experiences.",
-  role: "Oracle APEX & Full Stack Developer",
+    "I am an Oracle APEX Developer at Path Infotech, specialized in building intelligent enterprise applications with RAG pipelines, Azure OpenAI, and high-performance web systems using React.js, Next.js, Node.js, and MongoDB. Proven track record in designing resilient RESTful architectures, tuning Oracle database workloads, and delivering seamless user experiences.",
+  role: "Oracle APEX Developer",
   company: "Path Infotech Ltd.",
-  education: "B.Tech, Computer Science — Dr. A.P.J. Abdul Kalam Technical University",
+  education: "B.Tech, Computer Science (2021 — 2025) — Dr. A.P.J. Abdul Kalam Technical University (AKTU)",
   location: "Ghaziabad, Uttar Pradesh, India",
   email: "shubham4835@gmail.com",
   linkedin: "https://www.linkedin.com/in/shubham-anand-9a6b19218/",
   github: "https://github.com/Shubham4835anand",
   avatar: "/images/avatar.jpg",
   stats: [
-    { label: "Years Experience", value: "3+" },
+    { label: "Years Experience", value: "1+" },
     { label: "Production Apps", value: "15+" },
     { label: "Vector Search Recall", value: "99.8%" },
     { label: "Enterprise Scale", value: "1M+ Records" },
   ],
   badges: [
-    "⚡ Full Stack & AI Engineer",
-    "🏢 Oracle APEX @ Path Infotech",
+    "🏢 Oracle APEX Developer @ Path Infotech",
     "🧠 RAG & Azure OpenAI",
+    "⚡ Next.js & Full Stack",
     "📍 Uttar Pradesh, India",
     "🟢 Available for 2026 Opportunities"
   ]
@@ -71,7 +71,7 @@ export const groups: SkillGroup[] = [
     name: "Modern Frontend",
     color: "#38bdf8",
     description: "Fluid 3D visuals, high-performance UI components & reactive systems",
-    items: ["Next.js 14", "React 18", "TypeScript", "Three.js", "WebGL / R3F", "CSS Glassmorphism"],
+    items: ["Next.js 14", "React 18", "TypeScript", "Three.js", "HTML5", "CSS3"],
   },
   {
     name: "Backend & Enterprise",
@@ -83,7 +83,7 @@ export const groups: SkillGroup[] = [
     name: "Data & Cloud Infrastructure",
     color: "#34d399",
     description: "High-volume transactional databases, vector indexing & cloud deployment",
-    items: ["MongoDB Atlas", "Oracle 19c / 21c", "Schema Modeling", "Azure Cloud", "Docker", "Git / CI/CD"],
+    items: ["MongoDB Atlas", "Oracle 19c/21c/26ai", "Schema Modeling", "SQL Tuning", "Git", "GitHub"],
   },
 ];
 
@@ -99,7 +99,7 @@ export const projects: ProjectItem[] = [
     features: [
       "Sub-second vector retrieval with cross-encoder re-ranking",
       "Interactive page-exact PDF citation overlays",
-      "Role-based document access and SOC2 compliant telemetry"
+      "Role-based document access and secure access control"
     ],
     metrics: "98.6% Citation Accuracy",
     stack: ["Next.js", "TypeScript", "Azure OpenAI", "MongoDB Vector", "Node.js"],
@@ -133,7 +133,7 @@ export const projects: ProjectItem[] = [
     image: "/images/project3.jpg",
     text: "Created a conversational business intelligence dashboard that converts plain English business questions into secure, optimized SQL queries and dynamic real-time 3D charts with zero SQL injection risk.",
     features: [
-      "Context-aware schema grounding and AST SQL validator",
+      "Context-aware schema grounding and parameterized query execution",
       "Automated chart generation (bar, isometric 3D, line)",
       "Instant export to enterprise executive PDF reports"
     ],
@@ -153,10 +153,10 @@ export const projects: ProjectItem[] = [
     features: [
       "Integrated PL/SQL automated batch processing engine",
       "Interactive grids with custom JavaScript dynamic actions",
-      "Automated ETL pipeline connecting Oracle 21c and external APIs"
+      "Automated ETL pipeline connecting Oracle 19c/21c/26ai and external APIs"
     ],
     metrics: "99.98% Uptime",
-    stack: ["Oracle APEX", "PL/SQL", "Oracle 21c", "REST APIs", "JavaScript"],
+    stack: ["Oracle APEX", "PL/SQL", "Oracle 19c/21c/26ai", "REST APIs", "JavaScript"],
     demoUrl: "#",
     githubUrl: "https://github.com/shubham-anand",
   },
@@ -164,27 +164,39 @@ export const projects: ProjectItem[] = [
 
 export const experiences: ExperienceItem[] = [
   {
-    period: "2024 — PRESENT",
-    role: "Oracle APEX & Full Stack Developer",
+    period: "AUGUST 2025 — PRESENT",
+    role: "Oracle APEX Developer",
     company: "Path Infotech Ltd.",
     location: "Noida / Delhi NCR, India",
-    description: "Spearheading development of enterprise web applications and AI-integrated portals. Architecting RAG solutions, tuning Oracle database workloads, and delivering seamless user interfaces for Tier-1 corporate clients.",
+    description: "Spearheading development of enterprise web applications and AI-integrated cloud portals. Architecting RAG solutions with Azure OpenAI, tuning Oracle PL/SQL database workloads, and delivering seamless user interfaces.",
     highlights: [
-      "Engineered full stack AI solutions leveraging Azure OpenAI & vector search",
-      "Streamlined high-volume PL/SQL pipelines and Oracle APEX modern interfaces",
-      "Collaborated across cross-functional engineering and data science squads"
+      "Engineered enterprise cloud portals using Oracle APEX and Node.js",
+      "Architected enterprise RAG retrieval pipelines leveraging Azure OpenAI & vector search",
+      "Streamlined high-volume PL/SQL pipelines and integrated secure RESTful APIs"
     ]
   },
   {
-    period: "2019 — 2023",
-    role: "Bachelor of Technology — Computer Science",
-    company: "Dr. A.P.J. Abdul Kalam Technical University",
-    location: "Uttar Pradesh, India",
-    description: "Graduated with honors in Computer Science and Engineering. Built foundational strengths in algorithms, database design, distributed systems, and web technologies.",
+    period: "JULY 2024 — AUGUST 2024",
+    role: "MERN Stack Intern",
+    company: "AlmaMate Infotech Pvt. Ltd.",
+    location: "Noida, India",
+    description: "Collaborated in a team of developers to build full-featured web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). Focused on developing client-side interfaces with a responsive, user-friendly experience.",
     highlights: [
-      "Specialized in Software Engineering, DBMS, and Web Architecture",
-      "Led multiple full-stack hackathon projects and tech symposium showcases",
-      "Published research work in applied machine learning & information retrieval"
+      "Built responsive client-side UI components using React.js and TypeScript",
+      "Integrated RESTful API endpoints and state management flows",
+      "Styled dynamic web pages with CSS3 and modern component libraries"
+    ]
+  },
+  {
+    period: "2021 — 2025",
+    role: "Bachelor of Technology — Computer Science (CSE)",
+    company: "Dr. A.P.J. Abdul Kalam Technical University (AKTU)",
+    location: "IMS Engineering College, Ghaziabad",
+    description: "Completed B.Tech in Computer Science and Engineering. Built strong foundations in algorithms, database design, distributed systems, and modern web application development.",
+    highlights: [
+      "Specialized in Database Management Systems, Software Engineering, and Web Architecture",
+      "Captain, IMSEC Football Club and Active Tech Symposium Participant",
+      "Developed multiple full-stack academic and independent software projects"
     ]
   }
 ];
